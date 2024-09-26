@@ -6,7 +6,6 @@ const authRoutes = require('./routes/authRoutes');
 const movieRoutes = require('./routes/movieRoutes');
 const genreRoutes = require('./routes/genreRoutes');
 
-require('./startup/prod')(app);
 
 // Load environment variables from .env file
 dotenv.config();
