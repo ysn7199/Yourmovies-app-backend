@@ -18,7 +18,7 @@ const app = express();
 
 // Use CORS middleware
 app.use(cors({
-  origin: 'http://localhost:3001',
+  origin: 'https://yourmovies-nine.vercel.app/',
   credentials: true 
 }));
 
