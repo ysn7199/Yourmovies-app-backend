@@ -18,7 +18,7 @@ const app = express();
 
 // Use CORS middleware
 app.use(cors({
-  origin: 'https://yourmovies-ps9pmk12r-yassines-projects-370de181.vercel.app/',
+  origin: 'https://yourmovies-ps9pmk12r-yassines-projects-370de181.vercel.app',
   credentials: true 
 }));
 
