@@ -16,9 +16,14 @@ connectDB();
 // Initialize the Express application
 const app = express();
 
+const allowedOrigins = [
+    'https://yourmovies-nine.vercel.app',
+    'https://yourmovies-git-main-yassines-projects-370de181.vercel.app',
+    'https://yourmovies-ps9pmk12r-yassines-projects-370de181.vercel.app'
+];
 // Use CORS middleware
 app.use(cors({
-  origin: 'https://yourmovies-ps9pmk12r-yassines-projects-370de181.vercel.app',
+  origin:allowedOrigins ,
   credentials: true 
 }));
 
